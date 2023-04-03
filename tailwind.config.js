@@ -11,7 +11,8 @@ export default {
         "dark-green": "#112B32",
         "deep-cream": "#E3F0AA",
         red: "#FB89FB",
-        "light-blue": "#DDEAE3"
+        "light-blue": "#DDEAE3",
+        "light-green": "#C8E5E1"
       }
     },
   },
