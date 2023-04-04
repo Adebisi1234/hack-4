@@ -13,6 +13,9 @@ export default {
         red: "#FB89FB",
         "light-blue": "#DDEAE3",
         "light-green": "#C8E5E1"
+      },
+      flex: {
+        "1": "1 0 auto"
       }
     },
   },
