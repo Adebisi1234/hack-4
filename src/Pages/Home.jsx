@@ -1,13 +1,14 @@
 import Hero from "../components/landing/Hero"
+import Cta from "../components/landing/Cta"
 function Home(){
 
 	return(<div>
 		<Hero />
-		<div className="py-8 text-dark-green flex flex-col text-center items-center">
+		<div className="py-8 text-dark-green flex flex-col text-center items-center h-[540px]">
             <div className="max-w-[540px] my-4">
                 <h1 className="text-5xl">Why we are the best from others</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, temporibus.
-                     Cumque neque facere dolores quo expedita. Qui eaque aliquam similique.</p>
+                     CumTextque neque facere dolores quo expedita. Qui eaque aliquam similique.</p>
             </div>
             <div className="flex space-x-10">
                 {/* Hospital Stats start! */}
@@ -32,6 +33,39 @@ function Home(){
                     <p>Patient Satisfaction</p>
                 </div>
                 {/* Hospital Stats end! */} 
+            </div>
+        </div>
+        <Cta />
+        <div className="w-full bg-dark-green p-8 flex text-white justify-between">
+            <div>
+                <h1 className="text-5xl">Selfcare.ng</h1>
+                <p>Your Online Medical Care Platform</p>
+            </div>
+            <div className="flex space-x-10">
+                <ul>
+                    <li className="my-2">Text</li>
+                    <li className="my-2">Text</li>
+                    <li className="my-2">Text</li>
+                    <li className="my-2">Text</li>
+                </ul>
+                <ul>
+                    <li className="my-2">Text</li>
+                    <li className="my-2">Text</li>
+                    <li className="my-2">Text</li>
+                    <li className="my-2">Text</li>
+                </ul>
+                <ul>
+                    <li className="my-2">Text</li>
+                    <li className="my-2">Text</li>
+                    <li className="my-2">Text</li>
+                    <li className="my-2">Text</li>
+                </ul>
+                <ul>
+                    <li className="my-2">Text</li>
+                    <li className="my-2">Text</li>
+                    <li className="my-2">Text</li>
+                    <li className="my-2">Text</li>
+                </ul>
             </div>
         </div>
 	</div>)
